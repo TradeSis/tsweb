@@ -1,0 +1,15 @@
+.btn_fundoazul.webix_secondary button{
+    background: #396d9a;
+}
+.myCss .webix_list_item.menu{
+    color: #396d9a;
+    
+    background-color: #ffffff;
+    padding: 10px 10px 10px 30px;
+    }
+
+.app-logo {
+        background-image:url('http://tradesis.com.br/ts/img/tradesislogo.png');
+    background-size:     contain; 
+    background-repeat: no-repeat;
+    }

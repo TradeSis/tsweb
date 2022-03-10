@@ -1,2 +1,2 @@
-# tsweb
-TradeSis Aplicação Padrão 
+# tsservices
+TradeSis Gestão de Serviços
