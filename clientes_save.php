@@ -11,7 +11,7 @@
   
   $dbmy=mysqli_connect($hostname,$username, $password,$dbname);
 
-  $fp = fopen('..\works\save.txt', 'w'); //********** */      //# 1- Modificação!
+  $fp = fopen('..\works\clientes_save.txt', 'w'); //********** */      //# 1- Modificação!
 
   fwrite($fp, "conectando mysql=".$dbname."\n");
 

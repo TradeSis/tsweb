@@ -1,4 +1,3 @@
-<!--#1 - Chamada html, direcionando para webix, css e jquery-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -181,7 +180,7 @@ const table_tarefas = {                 //# 2- Modificação!
     select:true,
    // url:"data/data.js",
     hover:"myhover",
-    save: "/ts/tsservices/clientes_save.php", /* PHP SAVE IN MYSQL */                    //****************##########1 */
+    save: "/ts/tsweb/clientes_save.php", /* PHP SAVE IN MYSQL */                    //****************##########1 */
 
     columns:                           //# 1- Modificação!
         [
@@ -436,7 +435,7 @@ $$(winId).getBody().focus();
 function executa(wvar){
 
 // alert ("periodo selecionado: " + wvar);
-  wJson = chamaAJAX("/ts/tsservices/clientes_leitura.php");                         //# 9- Modificação! NOVA****
+  wJson = chamaAJAX("/ts/tsweb/clientes_leitura.php");                         //# 9- Modificação! NOVA****
   
   //alert(JSON.stringify(wJson, null, 4));
 
